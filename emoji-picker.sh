@@ -5,7 +5,7 @@ if [[ ! -f "$EMOJI_FILE" ]]; then
     exit 1
 fi
 
-choice=$(cat "$EMOJI_FILE" | wmenu -i -l 15 -p "Emoji:")
+choice=$(cat "$EMOJI_FILE" | wmenu -i -l 6 -p "Emoji:")
 
 if [[ -n "$choice" ]]; then
     emoji=$(echo "$choice" | awk '{print $1}')
