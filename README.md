@@ -5,7 +5,10 @@ A shell script that runs **wmenu** to display a searchable menu to find emoji. T
 
 </br>
 
-
+<details>
+  <summary>Preview</summary>
+  <img width="707" height="346" alt="image" src="https://i.imgur.com/2o6x6Hj.png" />
+</details>
 
 </br>
 
